@@ -1,1 +1,1 @@
-# MC3-Team6-Pricura
+# MC3-Team6-MutekiNoIdoruPricura
