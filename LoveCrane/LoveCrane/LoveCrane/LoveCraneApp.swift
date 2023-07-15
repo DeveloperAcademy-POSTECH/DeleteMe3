@@ -2,7 +2,7 @@
 //  LoveCraneApp.swift
 //  LoveCrane
 //
-//  Created by 235 on 2023/07/10.
+//  Created by 최진용 on 2023/07/15.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct LoveCraneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
