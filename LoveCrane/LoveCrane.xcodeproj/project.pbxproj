@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865772D12A6531D400D40B59 /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865772D02A6531D400D40B59 /* AppleLoginButton.swift */; };
+		865772D32A65335D00D40B59 /* AppleLoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865772D22A65335D00D40B59 /* AppleLoginResult.swift */; };
+		865772D62A65344500D40B59 /* AppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865772D52A65344500D40B59 /* AppleLoginHelper.swift */; };
+		865772D82A65367D00D40B59 /* TopViewControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865772D72A65367D00D40B59 /* TopViewControllerManager.swift */; };
 		C70A1D9C2A631EB000BB9659 /* LoveCraneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1D9B2A631EB000BB9659 /* LoveCraneApp.swift */; };
 		C70A1DA02A631EB100BB9659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A1D9F2A631EB100BB9659 /* Assets.xcassets */; };
 		C70A1DA32A631EB100BB9659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A1DA22A631EB100BB9659 /* Preview Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865772D02A6531D400D40B59 /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
+		865772D22A65335D00D40B59 /* AppleLoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginResult.swift; sourceTree = "<group>"; };
+		865772D52A65344500D40B59 /* AppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginHelper.swift; sourceTree = "<group>"; };
+		865772D72A65367D00D40B59 /* TopViewControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewControllerManager.swift; sourceTree = "<group>"; };
 		C70A1D982A631EB000BB9659 /* LoveCrane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCrane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70A1D9B2A631EB000BB9659 /* LoveCraneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCraneApp.swift; sourceTree = "<group>"; };
 		C70A1D9F2A631EB100BB9659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		865772D42A65342A00D40B59 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				865772D52A65344500D40B59 /* AppleLoginHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C70A1D8F2A631EB000BB9659 = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				C70A1DAD2A6323F700BB9659 /* User.swift */,
+				865772D22A65335D00D40B59 /* AppleLoginResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,7 +168,9 @@
 		C70A1DB02A6323F700BB9659 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				865772D42A65342A00D40B59 /* Helpers */,
 				C70A1DB12A6323F700BB9659 /* SampleManager.swift */,
+				865772D72A65367D00D40B59 /* TopViewControllerManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -292,6 +311,7 @@
 		C70A1DCF2A6323F700BB9659 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				865772D02A6531D400D40B59 /* AppleLoginButton.swift */,
 				C70A1DD02A6323F700BB9659 /* LoginView.swift */,
 			);
 			path = Login;
@@ -388,8 +408,10 @@
 				C70A1DD22A6323F700BB9659 /* FirebaseNetwork.swift in Sources */,
 				C70A1DD62A6323F700BB9659 /* DetailViewModel.swift in Sources */,
 				C70A1DD32A6323F700BB9659 /* SampleManager.swift in Sources */,
+				865772D82A65367D00D40B59 /* TopViewControllerManager.swift in Sources */,
 				C70A1DD72A6323F700BB9659 /* WriteViewModel.swift in Sources */,
 				C70A1D9C2A631EB000BB9659 /* LoveCraneApp.swift in Sources */,
+				865772D62A65344500D40B59 /* AppleLoginHelper.swift in Sources */,
 				C70A1DDA2A6323F700BB9659 /* LoginViewModel.swift in Sources */,
 				C70A1DD82A6323F700BB9659 /* SettingViewModel.swift in Sources */,
 				C70A1DE22A6323F700BB9659 /* LoginView.swift in Sources */,
@@ -398,7 +420,9 @@
 				C70A1DDC2A6323F700BB9659 /* DetailView.swift in Sources */,
 				C7A1B6812A6522FC00040C1C /* AppDelegate.swift in Sources */,
 				C70A1DDE2A6323F700BB9659 /* ReciveHistoryView.swift in Sources */,
+				865772D32A65335D00D40B59 /* AppleLoginResult.swift in Sources */,
 				C70A1DD92A6323F700BB9659 /* MainViewModel.swift in Sources */,
+				865772D12A6531D400D40B59 /* AppleLoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
