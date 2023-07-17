@@ -11,8 +11,8 @@
 		C70A1DA02A631EB100BB9659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A1D9F2A631EB100BB9659 /* Assets.xcassets */; };
 		C70A1DA32A631EB100BB9659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70A1DA22A631EB100BB9659 /* Preview Assets.xcassets */; };
 		C70A1DAB2A6323D500BB9659 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DAA2A6323D500BB9659 /* Font.swift */; };
-		C70A1DD12A6323F700BB9659 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DAD2A6323F700BB9659 /* User.swift */; };
-		C70A1DD22A6323F700BB9659 /* FirebaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DAF2A6323F700BB9659 /* FirebaseNetwork.swift */; };
+		C70A1DD12A6323F700BB9659 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DAD2A6323F700BB9659 /* Info.swift */; };
+		C70A1DD22A6323F700BB9659 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DAF2A6323F700BB9659 /* UserManager.swift */; };
 		C70A1DD32A6323F700BB9659 /* SampleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DB12A6323F700BB9659 /* SampleManager.swift */; };
 		C70A1DD42A6323F700BB9659 /* ReciveHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DB42A6323F700BB9659 /* ReciveHistoryViewModel.swift */; };
 		C70A1DD52A6323F700BB9659 /* WirteHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DB62A6323F700BB9659 /* WirteHistoryViewModel.swift */; };
@@ -29,6 +29,10 @@
 		C70A1DE02A6323F700BB9659 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DCD2A6323F700BB9659 /* MainView.swift */; };
 		C70A1DE12A6323F700BB9659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DCE2A6323F700BB9659 /* ContentView.swift */; };
 		C70A1DE22A6323F700BB9659 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70A1DD02A6323F700BB9659 /* LoginView.swift */; };
+		C7553CA62A65509500C2104B /* NickNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7553CA52A65509500C2104B /* NickNameView.swift */; };
+		C7553CA82A65546300C2104B /* NickNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7553CA72A65546300C2104B /* NickNameViewModel.swift */; };
+		C7553CAB2A6560E400C2104B /* AuthDataResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7553CAA2A6560E400C2104B /* AuthDataResultModel.swift */; };
+		C7553CAD2A65637B00C2104B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7553CAC2A65637B00C2104B /* String.swift */; };
 		C7A1B6742A65221000040C1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7A1B6732A65221000040C1C /* GoogleService-Info.plist */; };
 		C7A1B6772A6522E200040C1C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C7A1B6762A6522E200040C1C /* FirebaseAuth */; };
 		C7A1B6792A6522E200040C1C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C7A1B6782A6522E200040C1C /* FirebaseFirestore */; };
@@ -44,8 +48,8 @@
 		C70A1D9F2A631EB100BB9659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70A1DA22A631EB100BB9659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C70A1DAA2A6323D500BB9659 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		C70A1DAD2A6323F700BB9659 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C70A1DAF2A6323F700BB9659 /* FirebaseNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseNetwork.swift; sourceTree = "<group>"; };
+		C70A1DAD2A6323F700BB9659 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		C70A1DAF2A6323F700BB9659 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		C70A1DB12A6323F700BB9659 /* SampleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleManager.swift; sourceTree = "<group>"; };
 		C70A1DB42A6323F700BB9659 /* ReciveHistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReciveHistoryViewModel.swift; sourceTree = "<group>"; };
 		C70A1DB62A6323F700BB9659 /* WirteHistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WirteHistoryViewModel.swift; sourceTree = "<group>"; };
@@ -62,6 +66,10 @@
 		C70A1DCD2A6323F700BB9659 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C70A1DCE2A6323F700BB9659 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C70A1DD02A6323F700BB9659 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C7553CA52A65509500C2104B /* NickNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameView.swift; sourceTree = "<group>"; };
+		C7553CA72A65546300C2104B /* NickNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameViewModel.swift; sourceTree = "<group>"; };
+		C7553CAA2A6560E400C2104B /* AuthDataResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataResultModel.swift; sourceTree = "<group>"; };
+		C7553CAC2A65637B00C2104B /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C7A1B6732A65221000040C1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C7A1B6802A6522FC00040C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				C70A1DAA2A6323D500BB9659 /* Font.swift */,
+				C7553CAC2A65637B00C2104B /* String.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -135,7 +144,8 @@
 		C70A1DAC2A6323F700BB9659 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C70A1DAD2A6323F700BB9659 /* User.swift */,
+				C70A1DAD2A6323F700BB9659 /* Info.swift */,
+				C7553CAA2A6560E400C2104B /* AuthDataResultModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,7 +153,7 @@
 		C70A1DAE2A6323F700BB9659 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				C70A1DAF2A6323F700BB9659 /* FirebaseNetwork.swift */,
+				C7553CA92A6557E000C2104B /* FireStore */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -222,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				C70A1DC02A6323F700BB9659 /* LoginViewModel.swift */,
+				C7553CA72A65546300C2104B /* NickNameViewModel.swift */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -293,8 +304,17 @@
 			isa = PBXGroup;
 			children = (
 				C70A1DD02A6323F700BB9659 /* LoginView.swift */,
+				C7553CA52A65509500C2104B /* NickNameView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		C7553CA92A6557E000C2104B /* FireStore */ = {
+			isa = PBXGroup;
+			children = (
+				C70A1DAF2A6323F700BB9659 /* UserManager.swift */,
+			);
+			path = FireStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,21 +398,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7553CAB2A6560E400C2104B /* AuthDataResultModel.swift in Sources */,
 				C70A1DDD2A6323F700BB9659 /* WriteView.swift in Sources */,
 				C70A1DD42A6323F700BB9659 /* ReciveHistoryViewModel.swift in Sources */,
 				C70A1DDB2A6323F700BB9659 /* WriteHistoryView.swift in Sources */,
 				C70A1DDF2A6323F700BB9659 /* SettingView.swift in Sources */,
-				C70A1DD12A6323F700BB9659 /* User.swift in Sources */,
+				C70A1DD12A6323F700BB9659 /* Info.swift in Sources */,
 				C70A1DE02A6323F700BB9659 /* MainView.swift in Sources */,
 				C70A1DE12A6323F700BB9659 /* ContentView.swift in Sources */,
-				C70A1DD22A6323F700BB9659 /* FirebaseNetwork.swift in Sources */,
+				C70A1DD22A6323F700BB9659 /* UserManager.swift in Sources */,
 				C70A1DD62A6323F700BB9659 /* DetailViewModel.swift in Sources */,
 				C70A1DD32A6323F700BB9659 /* SampleManager.swift in Sources */,
 				C70A1DD72A6323F700BB9659 /* WriteViewModel.swift in Sources */,
 				C70A1D9C2A631EB000BB9659 /* LoveCraneApp.swift in Sources */,
 				C70A1DDA2A6323F700BB9659 /* LoginViewModel.swift in Sources */,
 				C70A1DD82A6323F700BB9659 /* SettingViewModel.swift in Sources */,
+				C7553CA62A65509500C2104B /* NickNameView.swift in Sources */,
 				C70A1DE22A6323F700BB9659 /* LoginView.swift in Sources */,
+				C7553CAD2A65637B00C2104B /* String.swift in Sources */,
+				C7553CA82A65546300C2104B /* NickNameViewModel.swift in Sources */,
 				C70A1DAB2A6323D500BB9659 /* Font.swift in Sources */,
 				C70A1DD52A6323F700BB9659 /* WirteHistoryViewModel.swift in Sources */,
 				C70A1DDC2A6323F700BB9659 /* DetailView.swift in Sources */,
