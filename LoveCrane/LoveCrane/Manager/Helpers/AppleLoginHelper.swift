@@ -20,7 +20,7 @@ final class AppleLoginHelper: NSObject {
     func startSignInWithAppleFlow(completion: @escaping (Result<AppleLoginResult, Error>) -> Void) {
         
         guard let topVC = TopViewControllerManager.shared.topViewController() else {
-            completion(.failure(URLError(.badURL)))
+            completion(.failure(AuthErrors.failedToGetTopViewController))
             return
         }
         
@@ -81,7 +81,7 @@ extension AppleLoginHelper: ASAuthorizationControllerDelegate {
             let appleIDToken = appleIDCredential.identityToken,
             let idTokenString = String(data: appleIDToken, encoding: .utf8),
             let nonce = currentNonce else {
-            completionHandler?(.failure(URLError(.badServerResponse)))
+            completionHandler?(.failure(AuthErrors.failedToMakeAppleIDCredential))
             return
         }
         
@@ -93,7 +93,7 @@ extension AppleLoginHelper: ASAuthorizationControllerDelegate {
     }
 
   func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
-    print("애플 로그인 에러 발생: \(error)")
+      print("애플 로그인 에러 발생: \(error.localizedDescription)")
   }
 }
 
