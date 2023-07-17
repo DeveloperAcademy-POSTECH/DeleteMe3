@@ -11,6 +11,7 @@ import SwiftUI
 struct LoveCraneApp: App {
     
     
+    
     var body: some Scene {
         WindowGroup {
             MainView()

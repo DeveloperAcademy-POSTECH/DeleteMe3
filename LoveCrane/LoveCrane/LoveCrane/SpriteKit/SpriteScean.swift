@@ -31,6 +31,7 @@ final class SpriteScene: SKScene {
         addChild(crane)
     }
     
+    //해당 메소드는 없어도 됩니다.
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         createCrane()
     }
